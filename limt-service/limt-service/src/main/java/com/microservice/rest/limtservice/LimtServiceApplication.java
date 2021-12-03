@@ -2,8 +2,10 @@ package com.microservice.rest.limtservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+@ComponentScan(basePackages="com.microservice.rest.limtserviceController")
 public class LimtServiceApplication {
 
 	public static void main(String[] args) {
